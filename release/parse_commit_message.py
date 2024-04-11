@@ -14,4 +14,11 @@ class MyCommitParser(
     semantic_release.CommitParser[semantic_release.ParseResult, MyParserOptions]
 ):
     def parse(self, commit: git.objects.commit.Commit) -> semantic_release.ParseResult:
-        return semantic_release.ParsedCommit(bump=semantic_release.LevelBump.PATCH, type="feat", scope="", descriptions=[""], breaking_descriptions=[""], commit=commit)
+        return semantic_release.ParsedCommit(
+            bump=semantic_release.LevelBump.PATCH,
+            type="feat",
+            scope="",
+            descriptions=[""],
+            breaking_descriptions=[""],
+            commit=commit
+        )
