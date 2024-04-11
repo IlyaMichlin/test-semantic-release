@@ -1,7 +1,6 @@
 name: Release Package
 
 on:
-  push:
   workflow_dispatch:
 
 jobs:
