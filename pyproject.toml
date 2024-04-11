@@ -1,0 +1,4 @@
+[tool.semantic_release]
+version_variable = 'test_semantic_release/1.py:__version__'
+upload_to_pypi = false
+patch_without_tag = true
