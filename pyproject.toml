@@ -19,6 +19,7 @@ dependencies = []
 [tool.semantic_release]
 version_variables = ["test_semantic_release/__init__.py:__version__"]
 version_toml = ["pyproject.toml:project.version"]
+commit_parser = 'release.changelog_parser.parse_commit_message'
 
 [tool.semantic_release.changelog]
 template_dir = "templates"
