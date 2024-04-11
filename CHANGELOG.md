@@ -2,6 +2,15 @@
 
 
 
+## v0.0.2 (2024-04-11)
+
+### Feat
+
+* Merge branch &#39;main&#39; of https://github.com/IlyaMichlin/test-semantic-release ([`d69b66a`](https://github.com/IlyaMichlin/test-semantic-release/commit/d69b66a4ac8730e8555581a613de0e4f59dc3173))
+
+* next_ver ([`8e2eff8`](https://github.com/IlyaMichlin/test-semantic-release/commit/8e2eff83762a2db8f99694bcc0c7a93437ffa03c))
+
+
 ## v0.0.1 (2024-04-11)
 
 ### Feat
