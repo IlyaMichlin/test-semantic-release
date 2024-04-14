@@ -2,6 +2,13 @@
 
 
 
+## v0.0.5 (2024-04-14)
+
+### Patch
+
+* default template ([`4017fae`](https://github.com/IlyaMichlin/test-semantic-release/commit/4017fae2f2bd20fcf4ab05ecd181b8b58105747b))
+
+
 ## v0.0.4 (2024-04-14)
 
 ### Patch
