@@ -2,6 +2,15 @@
 
 
 
+## v0.0.4 (2024-04-14)
+
+### Patch
+
+* python-semantic-release/python-semantic-release@v9.4.2 ([`b715eec`](https://github.com/IlyaMichlin/test-semantic-release/commit/b715eec1183ba1937b0e2c0f17b89849ebd7199c))
+
+* python-semantic-release/python-semantic-release@9.4.2 ([`ebc3f3c`](https://github.com/IlyaMichlin/test-semantic-release/commit/ebc3f3c361d34963ea787aecb363ba32d58b1824))
+
+
 ## v0.0.3 (2024-04-14)
 
 ### Patch
