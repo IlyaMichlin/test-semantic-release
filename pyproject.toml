@@ -16,13 +16,19 @@ authors = [{ name = "Ilya Michlin", email = "some@email.com" }]
 dependencies = []
 
 
+[tool.setuptools.packages.find]
+include = [ "test_semantic_release*" ]
+namespaces = false
+
+
 [tool.semantic_release]
 version_variables = ["test_semantic_release/__init__.py:__version__"]
 version_toml = ["pyproject.toml:project.version"]
 commit_parser = 'release.parse_commit_message:MyCommitParser'
 build_command = """
-    python -m pip install build~=1.2.0
+    python -m pip install build~=1.2.0 twine~=5.0.0
     python -m build .
+    twine upload --repository codeartifact dist/* --verbose
 """
 
 [tool.semantic_release.branches.main]
