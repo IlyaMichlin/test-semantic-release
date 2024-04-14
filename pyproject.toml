@@ -21,11 +21,6 @@ version_variables = ["test_semantic_release/__init__.py:__version__"]
 version_toml = ["pyproject.toml:project.version"]
 commit_parser = 'release.parse_commit_message:MyCommitParser'
 
-[tool.semantic_release.changelog]
-template_dir = "templates"
-changelog_file = "CHANGELOG.md"
-exclude_commit_patterns = []
-
 [tool.semantic_release.branches.main]
 match = "(main|master)"
 prerelease = false
