@@ -20,6 +20,10 @@ jobs:
       uses: python-semantic-release/python-semantic-release@v9.4.2
       with:
         github_token: ${{ secrets.PUBLISH_GITHUB_TOKEN }}
+        root_options: "-vv"
       env:
         GIT_COMMITTER_NAME: Semantic Release
         GIT_COMMITTER_EMAIL: action@github.com
+
+    - name: Check directory contents
+      run: ls -la

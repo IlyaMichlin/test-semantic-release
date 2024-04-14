@@ -20,6 +20,10 @@ dependencies = []
 version_variables = ["test_semantic_release/__init__.py:__version__"]
 version_toml = ["pyproject.toml:project.version"]
 commit_parser = 'release.parse_commit_message:MyCommitParser'
+build_command = """
+    python -m pip install build~=1.2.0
+    python -m build .
+"""
 
 [tool.semantic_release.branches.main]
 match = "(main|master)"
