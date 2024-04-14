@@ -2,9 +2,18 @@
 
 
 
+## v0.0.3 (2024-04-14)
+
+### Patch
+
+* Merge branch &#39;main&#39; of https://github.com/IlyaMichlin/test-semantic-release ([`66934de`](https://github.com/IlyaMichlin/test-semantic-release/commit/66934ded7f53bb263c5986aa23e41f3e98e6f229))
+
+* messages ([`1f61e05`](https://github.com/IlyaMichlin/test-semantic-release/commit/1f61e0566ac9968ae2331464074399792fabf202))
+
+
 ## v0.0.2 (2024-04-11)
 
-### Feat
+### Patch
 
 * Merge branch &#39;main&#39; of https://github.com/IlyaMichlin/test-semantic-release ([`d69b66a`](https://github.com/IlyaMichlin/test-semantic-release/commit/d69b66a4ac8730e8555581a613de0e4f59dc3173))
 
@@ -13,7 +22,7 @@
 
 ## v0.0.1 (2024-04-11)
 
-### Feat
+### Patch
 
 * fixes ([`64ab31c`](https://github.com/IlyaMichlin/test-semantic-release/commit/64ab31cb24f4fc826c910b7784c0b1d553713050))
 
@@ -66,7 +75,7 @@
 
 ## v0.0.0 (2024-04-11)
 
-### Feat
+### Patch
 
 * 0.0.1 ([`535d36d`](https://github.com/IlyaMichlin/test-semantic-release/commit/535d36d43ec238793c4034de0c637492c886c5ba))
 
