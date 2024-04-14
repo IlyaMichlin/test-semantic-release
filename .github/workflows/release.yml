@@ -17,7 +17,7 @@ jobs:
         token: ${{ secrets.PUBLISH_GITHUB_TOKEN }}
 
     - name: Python Semantic Release
-      uses: python-semantic-release/python-semantic-release@9.4.2
+      uses: python-semantic-release/python-semantic-release@v9.4.2
       with:
         github_token: ${{ secrets.PUBLISH_GITHUB_TOKEN }}
       env:
