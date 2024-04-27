@@ -47,3 +47,5 @@ jobs:
         git_committer_name: ${{ env.GIT_COMMITTER_NAME }}
         force:  ${{ inputs.increment_version}}
         prerelease: ${{ inputs.is_prerelease }}
+        commit: ${{ !inputs.is_prerelease }}
+        push: ${{ !inputs.is_prerelease }}
