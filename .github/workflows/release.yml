@@ -5,8 +5,7 @@ on:
     inputs:
       increment_version:
         description: 'Increment version by major, minor, or patch'
-        required: false
-        default: 'patch'
+        default: ''
         type: choice
         options:
         - major
