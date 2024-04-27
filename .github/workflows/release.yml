@@ -43,5 +43,5 @@ jobs:
       with:
         github_token: ${{ secrets.PUBLISH_GITHUB_TOKEN }}
         git_committer_name: ${{ env.GIT_COMMITTER_NAME }}
-        force:  ${{ inputs.increment_version}}
+        force: ${{ inputs.increment_version && !inputs.is_prerelease }}
         prerelease: ${{ inputs.is_prerelease }}
